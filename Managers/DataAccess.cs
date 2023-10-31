@@ -37,6 +37,7 @@ namespace Managers
                 int rowAffected = cmd.ExecuteNonQuery();
                 n.Close();
                 Console.WriteLine("Added");
+                //jsyfiiiiiiiiiiiiiiiiiiiiiiiluyiye
                 return rowAffected;
             }
        
