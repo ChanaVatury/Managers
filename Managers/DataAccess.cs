@@ -36,10 +36,10 @@ namespace Managers
                 n.Open();
                 int rowAffected = cmd.ExecuteNonQuery();
                 n.Close();
+                Console.WriteLine("Added");
                 return rowAffected;
-
             }
-
+       
         }
         public void readData(string connectionString)
         {
